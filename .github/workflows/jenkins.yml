@@ -14,5 +14,5 @@ jobs:
         steps:
             - name: jenkins-curl
               run: |
-                  curl  --insecure  --location 'https://jenkins.next.jaehan1346dev.online/job/typeit-admin/build?token=outCall' --header 'Content-Type: application/json' --header 'Authorization: ${{ secrets.TYPEIT_API_JENKINS_AUTH_BASIC_TOKEN }}' --data-raw '{ "email": "jaehan1346@nextinnovation.kr" }'
+                  curl  --insecure  --location 'https://jenkins.next.jaehan1346dev.online/job/typeit-admin/build?token=outCall2' --header 'Content-Type: application/json' --header 'Authorization: ${{ secrets.TYPEIT_API_JENKINS_AUTH_BASIC_TOKEN }}' --data-raw '{ "email": "jaehan1346@nextinnovation.kr" }'
 
